@@ -8,18 +8,6 @@ An interactive Excel dashboard created to analyze pizza sales data using PivotTa
 The company wants to better understand its pizza sales performance to improve decision-making around inventory, marketing, and product offerings. However, their raw sales data lacks structure and insights.  
 The goal is to transform this raw data into a clear, interactive dashboard that provides actionable insights into daily sales trends, top-selling items, and category performance.
 
-## 📚 Table of Contents
-
-- [Dashboard Preview](#dashboard-preview)
-- [Objective](#objective)
-- [Tools & Features Used](#tools--features-used)
-- [Project Workflow](#project-workflow)
-- [Dashboard Features](#dashboard-features)
-- [Folder Structure](#folder-structure)
-- [How to Use](#how-to-use)
-- [Insights Gained](#insights-gained)
-- [Author](#author)
-- [Note](#note)
 
 ## 🖼️ Dashboard Preview
 
