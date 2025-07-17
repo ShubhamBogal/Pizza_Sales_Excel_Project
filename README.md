@@ -1,39 +1,121 @@
-# Pizza Sales Dashboard
 
-This project analyzes and visualizes pizza sales data using Excel Pivot Tables and charts.  
-The dashboard provides insights into pizza sales by category, size, and time trends.
+# 🍕 Pizza Sales Dashboard in Excel
 
-## Project Overview
+An interactive Excel dashboard created to analyze pizza sales data using PivotTables, slicers, charts, and Excel functions. This project walks through data cleaning, PivotTable creation, and professional dashboard design — all using native Excel features.
 
-- Data source: Pizza sales dataset (Excel)
-- Tools used: Microsoft Excel (Pivot Tables, Pivot Charts), SQL Server Management Studio (Various Queries)
-- Visualizations: Donut chart, funnel chart, bar charts, pie chart, line chart
-- Features: Interactive slicers for date filtering, dynamic charts, data summaries
-
-## Key Insights
-
-- Classic Deluxe and Chicken pizzas are the best sellers.
-- Large pizza size contributes the highest percentage of total sales.
-- Bottom sellers include Brick Hair pizza, which has low sales.
-
-## Project Structure
-
-- /data - Excel files with raw sales data
-- /dashboards - Excel dashboards and charts
-- /documentation - Screenshots, notes, and project explanation
-- README.md - Project summary and instructions
-
-## How to Use
-
-1. Open the Pizza Sales Complete Project Excel file in the `/Data` folder.
-2. Use the slicers to filter sales data by date.
-3. Analyze sales trends by pizza category and size.
-4. Gain Insights from various charts and visalizations.
-
-## Author
-
-Shubham Bogal — [Your LinkedIn](https://linkedin.com/in/yourprofile) | [shubhambogal10gmail.com]
+![Dashboard Preview](images/pizza_dashboard_preview.png)
 
 ---
 
-Feel free to explore and reach out with any questions!
+## 📊 Objective
+
+To create a fully dynamic pizza sales dashboard that enables insights into:
+- Daily and monthly sales trends
+- Sales breakdowns by category, pizza name, and size
+- Key performance indicators (KPIs) like Total Revenue, Total Quantity, and Average Order Value
+- Interactive filtering by Date and Category
+
+---
+
+## 🛠 Tools & Features Used
+
+| Tool / Feature     | Purpose                                |
+|--------------------|----------------------------------------|
+| **Excel 365**       | Dashboard creation platform            |
+| **PivotTables**     | Aggregating and filtering data         |
+| **Slicers**         | Interactive filtering by date          |
+| **Formulas**        | `TEXT`, `MONTH`, `SUM`, `COUNTIF`, etc.|
+| **Custom Charts**   | Line, bar, and donut charts            |
+| **Named Ranges**    | For clean referencing in formulas      |
+
+---
+
+## 🧩 Project Workflow
+
+### 1. Data Cleaning
+- Opened the raw data Excel file
+- Cleaned empty rows and columns
+- Fixed inconsistent formatting
+- Added:
+  - **Day** column: `=TEXT([@[order_date]], "dddd")`
+  - **Distinct Count** column: `=1/COUNTIF(B:B,[@[order_id]])`
+
+### 2. Pivot Table Setup
+Created PivotTables for:
+- **KPI Cards**: Total Revenue, Quantity, Average Order Value
+- **% of Sales by Pizza Category**
+- **% of Sales by Pizza Size**
+- **Top 5 Pizzas by Sales**
+- **Worst 5 Pizzas by Sales**
+
+### 3. Dashboard Layout & Visuals
+- Designed KPI section using `TEXTBOXES + CELL LINKS`
+- Used:
+  - **Line Chart** for Hourly Trends in sales
+  - **Column Chart** for observing Daily Trends
+  - **Bar Chart** for 5 best and worst pizzas by name
+  - **Donut Chart** for Sales by Pizza Category
+  - **Funnel Chart & Pie Chart** to analyze Sales by pizza category and size
+- Applied professional color theme and layout spacing
+
+### 4. Interactivity
+- Inserted slicers for:
+  - **Months** (Timeline slicer)
+- Connected slicers to all relevant PivotTables
+- Made dashboard fully responsive to user filters
+
+---
+
+## 📈 Dashboard Features
+
+| Feature                | Description                                        |
+|------------------------|----------------------------------------------------|
+| **KPIs Section**       | Shows Total Revenue, Quantity, AOV                 |
+| **Hourly Orders Trend**| Line chart to observe Hourly Sales                 |
+| **Daily Orders Trend** | Column chart comparing Daily Sales                 |
+| **Top 5 Pizzas**       | Horizontal bar chart of sales by pizza name        |
+| **Sales by Size**      | Bar chart breakdown by size (S, M, L, XL, XXL)     |
+| **Sales by Category**  | Donut chart comparing Veg, Non-Veg, Classic, etc.  |
+
+---
+
+## 📂 Folder Structure
+
+```
+Excel Pizza Sales Project/
+├── Data/
+├── Dashboard and Charts/
+├── Documentation/
+```
+
+---
+
+## ▶️ How to Use
+
+1. Download `Pizza Sales Complete Project.xlsx` from the `Data/` folder
+2. Open in **Excel 365 or later**
+3. Use the **Date timeline** to filter visuals
+4. Dashboard updates automatically to reflect selections
+
+---
+
+## 💡 Insights Gained
+
+- Highest revenue-generating months and pizza categories
+- Best-selling pizza names and sizes
+- Daily demand trends for better inventory forecasting
+- Performance of different pizza types across time
+
+---
+
+## 📧 Author
+
+**[Shubham Bogal]**  
+📫 Email: shubhambogal10@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/your-linkedin)
+
+---
+
+## 📜 Note
+
+This project is for educational and portfolio purposes. All visuals and functionality are built using native Excel features (no macros or add-ins).
