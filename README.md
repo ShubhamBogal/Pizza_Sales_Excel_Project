@@ -3,7 +3,27 @@
 
 An interactive Excel dashboard created to analyze pizza sales data using PivotTables, slicers, charts, and Excel functions. This project walks through data cleaning, PivotTable creation, and professional dashboard design — all using native Excel features.
 
-![Dashboard Preview](images/pizza_dashboard_preview.png)
+## ❓ Problem Statement
+
+The company wants to better understand its pizza sales performance to improve decision-making around inventory, marketing, and product offerings. However, their raw sales data lacks structure and insights.  
+The goal is to transform this raw data into a clear, interactive dashboard that provides actionable insights into daily sales trends, top-selling items, and category performance.
+
+## 📚 Table of Contents
+
+- [Dashboard Preview](#dashboard-preview)
+- [Objective](#objective)
+- [Tools & Features Used](#tools--features-used)
+- [Project Workflow](#project-workflow)
+- [Dashboard Features](#dashboard-features)
+- [Folder Structure](#folder-structure)
+- [How to Use](#how-to-use)
+- [Insights Gained](#insights-gained)
+- [Author](#author)
+- [Note](#note)
+
+## 🖼️ Dashboard Preview
+
+![Dashboard Preview](Excel%20Pizza%20Sales%20Project/Dashboard%20and%20Charts/Dashboard.png)
 
 ---
 
