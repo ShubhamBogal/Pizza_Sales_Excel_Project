@@ -21,6 +21,7 @@ To create a fully dynamic pizza sales dashboard that enables insights into:
 
 | Tool / Feature     | Purpose                                |
 |--------------------|----------------------------------------|
+| **SQL Server Management Studio** | To drive various outputs from the data |
 | **Excel 365**       | Dashboard creation platform            |
 | **PivotTables**     | Aggregating and filtering data         |
 | **Slicers**         | Interactive filtering by date          |
